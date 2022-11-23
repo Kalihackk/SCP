@@ -17,6 +17,9 @@ h1 {
   width: 300px;
   padding: 64px 15px 24px;
   margin: 0 auto;
+  background-color: #212121;
+  background-blend-mode: color-burn;
+  border-radius: 20px;
   background-image: radial-gradient(
       circle at 100% 100%,
       transparent 11px,
@@ -54,7 +57,7 @@ h1 {
   background-position: top left, top center, top right, center right,
     bottom right, bottom center, bottom left, center left;
   background-repeat: no-repeat;
-  padding: 40px;
+  padding: 50px;
   box-sizing: content-box;
 }
 .form .control {
